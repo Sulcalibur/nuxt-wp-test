@@ -1,8 +1,8 @@
-const HOST = 'https://www.cabral.ro';
+const HOST = 'https://sulcalibur.cms.sulei.dev';
 const API_HOST = `${HOST}/wp-json/`;
 
 export const ENDPOINTS = {
-    GRAPHQL: `${HOST}/wordpress/graphql`,
+    GRAPHQL: `${HOST}/graphql`,
     HEAD: `${API_HOST}yoast/v1/get_head`,
     MENU: `${API_HOST}custom/menu`,
     POSTS: `${API_HOST}wp/v2/posts`,
@@ -14,8 +14,8 @@ export const ENDPOINTS = {
 };
 
 export const SITE = {
-    LANG: 'ro-RO',
-    TITLE: 'Cabral.ro',
+    LANG: 'en-GB',
+    TITLE: 'Sulcalibur',
     LINK: HOST,
-    GTM_ID: 'GTM-59M55JB',
+    GTM_ID: 'GTM-5W8K92T',
 };

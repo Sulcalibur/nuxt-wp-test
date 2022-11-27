@@ -56,7 +56,7 @@ export default {
         elementClass: null,
     },
     gtm: {
-        id: 'GTM-59M55JB',
+        id: 'GTM-5W8K92T',
         autoInit: false,
     },
 };
